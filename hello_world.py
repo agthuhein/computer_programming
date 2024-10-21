@@ -1,0 +1,1 @@
+print("not space"[3].isspace())
