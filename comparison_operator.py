@@ -25,3 +25,11 @@ B = "Yale"
 
 print(A == B)
 print(A != B)
+
+############
+a = (1.1 + 2.2)
+b = (1.1 + 2.2) * 10 / 10
+print(a)
+print(b)
+print(a == 3.3)
+print(b == 3.3)
