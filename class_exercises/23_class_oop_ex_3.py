@@ -3,7 +3,7 @@ class BankAccount:
         self.balance = balance
         self.amount = amount
 
-    
+
     def deposit(self):
         self.balance += self.amount
         return self.balance
@@ -19,7 +19,7 @@ class BankAccount:
 
 bc1 = BankAccount(500, 506)
 #print(f"Your new balance is {bc1.deposit()} after your deposit")
-if bc1.widthdraw() == False:
+if bc1.widthdraw() is False:
     print("You cannot withdraw!")
 else:
     print(f"Your new balance is {bc1.widthdraw()} after your widthdraw")
